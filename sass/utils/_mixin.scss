@@ -1,0 +1,10 @@
+@mixin logo-header-second-color ($color) {
+    color: $brand-color;
+}
+
+@mixin font($fs,$fw,$lh) {
+    font-size: $fs;
+    font-weight: $fw;
+    line-height: $lh;
+}
+//підключати через @include font(значення,значення, значення)

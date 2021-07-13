@@ -1,0 +1,67 @@
+%btnclose-modal {
+    display: inline-flex;
+    position: absolute;
+    top: 8px;
+    right: 8px;
+    background-color: $primery-br-color;
+    color: #000;
+    width: 30px;
+    height: 30px;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    border-radius: 50%;
+    align-items: center;
+    justify-content: center;
+    padding: 6px;
+    transition: transform $transition;
+    transition-property: color;
+        &:hover,
+        &:focus{
+            color: $accent-color;
+  }
+  }
+
+%button {
+    color: $primery-br-color;
+    background: $accent-color;
+    font-family: inherit;
+    font-size: 16px;
+    line-height: 1.8;
+    text-align: center;
+    text-shadow: rgba(0, 0, 0, 0.15);
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    min-width: 210px;
+    height: 50px;
+    padding: 10px 32px;
+    transition: transform $transition;
+    transition-property: text-shadow, background-color;
+  }
+
+%logo {
+    display: inline-block;
+    font-family: "Ralwey", sans-serif;
+    font-weight: bold;
+    font-size: 26px;
+    line-height: 1.1;
+    text-decoration: none;
+}
+  
+%nav-display {
+    display: flex;
+    align-items: center;
+}
+
+%us-nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: none;
+    border-radius: 50%;
+    width: 44px;
+    height: 44px;
+    fill: #fff;
+    box-shadow: inset 0 0 10px 5px rgba(255, 255, 255, 0.1);
+    transition: transform $transition;
+    transition-property: background;
+  }

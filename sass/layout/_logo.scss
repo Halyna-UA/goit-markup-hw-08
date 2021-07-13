@@ -1,0 +1,8 @@
+.logo {
+  @extend %logo;
+  color: $accent-color;
+}
+.logo__text--second {
+  @extend %logo;
+  color: $brand-color;
+}

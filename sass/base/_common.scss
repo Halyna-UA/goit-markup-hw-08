@@ -1,0 +1,32 @@
+.list {
+    font-weight: 500;
+    margin: 0px;
+    padding: 0px;
+  }
+
+  .list,
+  .buttons-list {
+    list-style: none;
+  }
+
+  a {
+    text-decoration: none;
+  }
+
+  h2,
+  h3 {
+    color: $title-text-color;
+  }
+
+  .container {
+    width: 1200px;
+    margin: 0 auto;
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+
+  img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+  }
